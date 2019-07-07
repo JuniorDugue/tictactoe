@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Square from "./components/Square/Square";
+import Board from "./components/Board/Board";
 
-import "./styles.css";
+import "./styles.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Square />
+      <Board />
     </div>
   );
 }
