@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Board from "./components/Board/Board";
-
+import Game from "./components/Game/Game";
 import "./styles.scss";
 
 function App() {
   return (
     <div className="App">
-      <Board />
+      <Game />
     </div>
   );
 }
